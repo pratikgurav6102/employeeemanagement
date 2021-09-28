@@ -15,7 +15,7 @@ Steps to setup and run the project:
 1. Download this project as zip and extract it.
 2. Use eclipse IDE and import project as existing maven project and select employeemanagement folder.
 3. Eclipse will import and maven will download the dependencies. (It may show and error to the jsp files that's because there is no server available. use Build Path -> Configure Build Path -> add library -> server runtime -> apache tomcat 8.5 and finish.)
-4. Create database named employeemanagement in mySQL database. Make sure database is up and running. I have used XAMPP with MySQL workbench.
+4. Create database named employeemanagement in mySQL database. Make sure database is up and running. I have used XAMPP with MySQL workbench. and in spring-servlet.xml file check hibernate.dialect property matching with your database, for me MySQL5Dialect worked fine.
 5. Now project is executable.
 
 Project screenshots:
